@@ -1,0 +1,76 @@
+{
+  "id": "8D80E8AA40BDB52D1D96ED9B5F43C241",
+  "name": "test.csv",
+  "instanceId": "3D708FCB497897877DE26FBEE9167B03",
+  "result": {
+    "definition": {
+      "thresholds": [],
+      "metrics": [
+        {
+          "name": "'A'",
+          "id": "AF0A33C5463D87DD483CB8A933579BF9",
+          "type": "Metric",
+          "min": 2,
+          "max": 5,
+          "numberFormatting": {
+            "category": 9,
+            "formatString": "General"
+          }
+        },
+        {
+          "name": "Row Count - test.csv",
+          "id": "DD617798435437004319B2A7D4AED5E8",
+          "type": "Metric",
+          "min": 1,
+          "max": 1,
+          "numberFormatting": {
+            "category": 0,
+            "decimalPlaces": 0,
+            "formatString": "#,##0;(#,##0)"
+          }
+        },
+        {
+          "name": "Test",
+          "id": "4625765F407646B2BCB011B76CF97F1A",
+          "type": "Metric",
+          "min": 1,
+          "max": 2,
+          "numberFormatting": {
+            "category": 9,
+            "formatString": "General"
+          }
+        }
+      ],
+      "attributes": []
+    },
+    "data": {
+      "paging": {
+        "total": 3,
+        "current": 1,
+        "offset": 0,
+        "limit": 1000,
+        "prev": null,
+        "next": null
+      },
+      "root": {
+        "metrics": {
+          "'A'": {
+            "rv": 2,
+            "fv": "2",
+            "mi": 0
+          },
+          "Row Count - test.csv": {
+            "rv": 1,
+            "fv": "1",
+            "mi": 1
+          },
+          "Test": {
+            "rv": 1,
+            "fv": "1",
+            "mi": 2
+          }
+        }
+      }
+    }
+  }
+}
